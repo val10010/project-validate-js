@@ -1,0 +1,30 @@
+{
+  "name": "project-validate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "._script.js",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "run-sequence": "^2.2.1"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/val10010/project-validate-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/val10010/project-validate-js/issues"
+  },
+  "homepage": "https://github.com/val10010/project-validate-js#readme"
+}

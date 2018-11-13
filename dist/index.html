@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>project-validate-js</title>
+</head>
+<body>
+  <main>
+    <fieldset>
+      <legend>Registration form</legend>
+      <form action="" class="formValidate" >
+      <label >
+          First name*
+          <br>
+          <input type="text" name="first" class="first field" value="">
+      </label>
+      <br>
+      <label>
+          Last name*
+          <br>
+          <input type="text" name="last" class="last field" value="">
+      </label>
+      <br>
+      <label>
+          Birthday* 
+          <br>
+          <input type="text" name="birthday" class="birthday field" placeholder="00/00/0000" value="">
+      </label>
+      <br>
+      <label class="error-radio">
+        Sex*
+        <br>
+       Men <input type="radio" name="sex" class="radio1 field" >
+       <br>
+       Women <input type="radio" name="sex" class="radio2 field" >
+      </label>
+      <br>
+      <label >
+          Country*
+          <br>
+          <select name="country" class="country field" >
+            <option value="1" checked>--chose your Country--</option>
+            <option value="2">Ukrain</option>
+            <option value="3">Russia</option>
+          </select>
+      </label>
+      <br>
+      <label >
+        Email*
+        <br>
+        <input type="text"  name="email" class="email field" placeholder="test@gmail.com">
+      </label>
+      <br>
+      <label >
+        Password*
+        <br>
+        <input type="text" name="password" class="password field">
+      </label>
+      <br>
+      <label >
+        Password Confirmation*
+        <br>
+        <input type="text" name="password" class="passwordConfirmation field">
+      </label>
+      <br>
+      <label >
+        Adress*
+        <br>
+        <input type="text" name="adress" class="adress field">
+      </label>
+      <br>
+      <label>
+      Notes
+      <br>
+      <input type="textarea" name="notes" class="notes field">
+    </label>
+    <br>
+    <input type="submit" class="submit">
+  </form>
+    </fieldset>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
